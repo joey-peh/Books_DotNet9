@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\BookAPI_DotNet9.props" />
+</Project>

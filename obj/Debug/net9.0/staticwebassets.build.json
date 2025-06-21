@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "RqvgCbbdDayIu2lHNYmNVwtY+VC05AsTfkYwY8Fd8NI=",
+  "Source": "BookAPI_DotNet9",
+  "BasePath": "_content/BookAPI_DotNet9",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

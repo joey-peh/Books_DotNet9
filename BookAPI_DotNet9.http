@@ -1,0 +1,67 @@
+@rootUrl = http://localhost:5105
+
+GET {{rootUrl}}/weatherforecast/
+Accept: application/json
+
+###
+GET {{rootUrl}}/api/books/
+Accept: application/json
+
+### 
+GET {{rootUrl}}/api/books/2
+Accept: application/json
+
+###
+POST {{rootUrl}}/api/books
+Content-Type: application/json
+{
+  "id": 13,
+  "title": "Legend of Jojo",
+  "author": "Joey",
+  "yearPublished": 2025
+}
+
+###
+PUT {{rootUrl}}/api/books/13
+Content-Type: application/json
+{
+  "id": 13,
+  "title": "Legend of Joey",
+  "author": "Joey",
+  "yearPublished": 2030
+}
+
+### 
+DELETE {{rootUrl}}/api/books/1
+Accept: application/json
+
+###
+GET {{rootUrl}}/api/databasebooks/
+Accept: application/json
+
+### 
+GET {{rootUrl}}/api/databasebooks/2
+Accept: application/json
+
+###
+POST {{rootUrl}}/api/databasebooks
+Content-Type: application/json
+{
+  "title": "Legend of Jojo",
+  "author": "Joey",
+  "yearPublished": 2025
+}
+
+###
+PUT {{rootUrl}}/api/databasebooks/13
+Content-Type: application/json
+{
+  "id": 13,
+  "title": "Legend of Joey",
+  "author": "Joey",
+  "yearPublished": 2030
+}
+
+### 
+DELETE {{rootUrl}}/api/databasebooks/13
+Accept: application/json
